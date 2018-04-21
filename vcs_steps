@@ -1,0 +1,16 @@
+module load synopsys/vcs
+
+vcs -full64 -debug_all -f vcs_master
+(vcs_master should contain all the files that need to be run)
+
+./simv
+(This will actually run the testbench. Currently, top.v is instantiating the ripple carry adder and I am passing inputs in the initial block)
+dve -full64
+(This will help you look at the waveform. Go to File-> open database-> open the top.dump.vpd)
+
+This will be helpful
+http://users.ece.utexas.edu/~patt/18s.382N/tools/vcs_manual.html
+
+Create appropriate directories inside lib/ for reusable verilog
+For actual functionality, we can create a components at the top, parallel to testbenches and lib and inside components, have all our files.
+
