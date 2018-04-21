@@ -1,0 +1,108 @@
+0 
+30
++itf+/usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/local/packages/synopsys_2015/vcs-mx/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvirsim.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/liberrorinf.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/local/packages/synopsys_2015/vcs-mx/include
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_access+class+driver+dmptf+bc
+-debug_region=cell+lib
+-debug_region=cell+lib
+-f vcs_master
+-full64
+-gen_obj
+-picarchive
+/usr/local/packages/synopsys_2015/vcs-mx/linux64/bin/vcs1
+62
+sysc_uni_pwd=/home/ecelrc/students/spasrija/high_speed/High_speed/project
+XSESSION_EXEC=xfce4-session
+XMODIFIERS=@im=none
+XDG_SESSION_COOKIE=ea2ceeb947c5b074dabd0bde00000028-1524279122.642185-1040603039
+XAUTHORITY=/home/ecelrc/students/spasrija//.Xauthority
+X2GO_SESSION=spasrija-50-1524279111_stDXFCE_dp32
+X2GO_AGENT_PID=12384
+VMR_MODE_FLAG=64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME_modshare=/usr/local/packages/synopsys_2015/vcs-mx/:1
+VCS_HOME=/usr/local/packages/synopsys_2015/vcs-mx/
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/local/packages/synopsys_2015/vcs-mx/linux64
+TCLSH=/usr/bin/tclsh
+STARTUP=/usr/bin/env LD_LIBRARY_PATH=/usr/lib64/nx/X11/Xinerama:/usr/lib64/nx/X11:/usr/local/lib xfce4-session
+SSH_CONNECTION=172.29.231.20 50213 146.6.221.73 22
+SSH_CLIENT=172.29.231.20 50213 22
+SSH_AUTH_SOCK=/tmp/ssh-kZEYP13414/agent.13414
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=13421
+SNPSLMD_LICENSE_FILE_modshare=/usr/local/packages/synopsys_2015/key:1
+SNPSLMD_LICENSE_FILE=/usr/local/packages/synopsys_2015/key
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/13414,unix/unix:/tmp/.ICE-unix/13414
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=xim
+QT_GRAPHICSSYSTEM=native
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PULSE_CLIENTCONFIG=/home/ecelrc/students/spasrija//.x2go/C-spasrija-50-1524279111_stDXFCE_dp32/.pulse-client.conf
+PATH_modshare=/usr/local/packages/synopsys_2015/vcs-mx/bin:1:/usr/sbin:1:/bin:1:/usr/bin:1:/usr/local/etc:1:/usr/X11R6/bin:1:/usr/local/packages/synopsys_2015/vcs-mx/amd64/bin:1:/sbin:1:/usr/local/packages/validation/bin:1:/usr/local/bin:1
+OVA_UUM=0
+NX_XINERAMA_CONF=/home/ecelrc/students/spasrija//.x2go/C-spasrija-50-1524279111_stDXFCE_dp32/xinerama.conf
+MODULESHOME=/home/projects/Modules
+MODULEPATH_modshare=/home/projects/Modules/tools:5:/home/projects/Modules/projects:5:/home/projects/Modules/base:5
+MODULEPATH=/home/projects/Modules/projects:/home/projects/Modules/tools:/home/projects/Modules/base
+MAVEN_HOME=/usr/share/apache-maven
+MANPATH_modshare=/usr/man:10:/home/projects/Modules/man:5:/usr/X11R6/man:5:/usr/local/man:5:/usr/share/man:10
+MAILPATH=/var/spool/mail/spasrija
+M2_HOME=/usr/share/apache-maven
+LOADEDMODULES_modshare=openwin:5:admin:5:system:5:modules:5:synopsys/vcs/2015:1:ece-defaults:5:aliases:5:local:5
+LOADEDMODULES=modules:system:openwin:aliases:local:admin:ece-defaults:synopsys/vcs/2015
+LM_LICENSE_FILE_modshare=/usr/local/packages/synopsys_2015/key:1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LD_LIBRARY_PATH_modshare=/usr/lib64:1:/usr/local/packages/synopsys_2015/vcs-mx/amd64/lib:1:/usr/local/lib:2:/usr/lib64/nx/X11:999999999:/usr/lib64/nx/X11/Xinerama:999999999
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+GTK_IM_MODULE=gtk-im-context-simple
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-SxCuUJZ4Xv,guid=e8b6bbb765f6b172582ffdd000831d06
+CVS_RSH=ssh
+COLORTERM=Terminal
+0
+5
+1524280460 top.v
+1524026554 lib/adders.v
+1524024365 lib/gates.v
+1524280473 vcs_master
+1448424285 /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/vcsdp.tab
+4
+0 
+1448427877 /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvirsim.so
+1448427558 /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/liberrorinf.so
+1448427538 /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsnpsmalloc.so
+1524280478 simv.daidir

@@ -1,0 +1,9 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/home/ecelrc/students/spasrija/high_speed/High_speed/project
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+TOP=nand2$ nand3$ nand4$ and3$ and4$ nor2$ nor3$ nor4$ or3$ or4$ xnor2$ inv1$ dff$ top 

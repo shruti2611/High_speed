@@ -1,0 +1,53 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_2079_archive_1.a",
+            "objects": [
+                [
+                    "Emx8S_d.o",
+                    13876
+                ]
+            ],
+            "size": 13876
+        }
+    ],
+    "Modules": {
+        "full_adder": {},
+        "inv1$": {},
+        "...MASTER...": {},
+        "nand2$": {},
+        "nand3$": {},
+        "nor2$": {},
+        "nand4$": {},
+        "and3$": {},
+        "nor3$": {},
+        "or4$": {},
+        "nor4$": {},
+        "and4$": {},
+        "or3$": {},
+        "xnor2$": {},
+        "dff$": {},
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "bytes": 9724,
+            "out": "objs/amcQw_d.o",
+            "checksum": 4294967295,
+            "mode": 4
+        },
+        "Emx8S_d": {
+            "mod": "top",
+            "archive": "archive.1/_2079_archive_1.a",
+            "bytes": 13876,
+            "out": "Emx8S_d.o",
+            "checksum": 4294967295,
+            "mode": 4
+        }
+    },
+    "reusePaths": {}
+}

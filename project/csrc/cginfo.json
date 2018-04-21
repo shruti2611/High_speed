@@ -1,0 +1,323 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "out": "objs/amcQw_d.o",
+                "bytes": 9740,
+                "mod": "...MASTER...",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "inv1$": {
+            "NYIg8_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "NYIg8_d.o",
+                "bytes": 6223,
+                "mod": "inv1$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "full_adder": {
+            "BEdzp_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "BEdzp_d.o",
+                "bytes": 14237,
+                "mod": "full_adder",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "nand4$": {
+            "pMIy1_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "pMIy1_d.o",
+                "bytes": 8486,
+                "mod": "nand4$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "and3$": {
+            "Z9uSW_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "Z9uSW_d.o",
+                "bytes": 8065,
+                "mod": "and3$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "nor3$": {
+            "KYk6D_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "KYk6D_d.o",
+                "bytes": 8065,
+                "mod": "nor3$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "or3$": {
+            "PshGg_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "PshGg_d.o",
+                "bytes": 8064,
+                "mod": "or3$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "and4$": {
+            "mm9mm_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "mm9mm_d.o",
+                "bytes": 8485,
+                "mod": "and4$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "or4$": {
+            "Z8whs_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "Z8whs_d.o",
+                "bytes": 8484,
+                "mod": "or4$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "nor4$": {
+            "w39hk_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "w39hk_d.o",
+                "bytes": 8485,
+                "mod": "nor4$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "nand3$": {
+            "icZA4_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "icZA4_d.o",
+                "bytes": 8066,
+                "mod": "nand3$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "nor2$": {
+            "qziQy_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "qziQy_d.o",
+                "bytes": 7660,
+                "mod": "nor2$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "xnor2$": {
+            "i48Ip_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "i48Ip_d.o",
+                "bytes": 7661,
+                "mod": "xnor2$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "table_dffq": {
+            "table_dffq": {
+                "out": "objs/udps/abmDd.o",
+                "bytes": 0,
+                "mod": "table_dffq",
+                "mode": 4
+            }
+        },
+        "dff$": {
+            "SD5jH_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "SD5jH_d.o",
+                "bytes": 10471,
+                "mod": "dff$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        },
+        "nand2$": {
+            "GnPnt_d": {
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "GnPnt_d.o",
+                "bytes": 7661,
+                "mod": "nand2$",
+                "checksum": 4294967295,
+                "mode": 4
+            }
+        }
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "top"
+    ],
+    "CompileStatus": "Successful",
+    "NameTable": {
+        "nand2$": [
+            "nand20x24",
+            "GnPnt",
+            "module"
+        ],
+        "nor2$": [
+            "nor20x24",
+            "qziQy",
+            "module"
+        ],
+        "nand3$": [
+            "nand30x24",
+            "icZA4",
+            "module"
+        ],
+        "nor3$": [
+            "nor30x24",
+            "KYk6D",
+            "module"
+        ],
+        "and3$": [
+            "and30x24",
+            "Z9uSW",
+            "module"
+        ],
+        "nand4$": [
+            "nand40x24",
+            "pMIy1",
+            "module"
+        ],
+        "nor4$": [
+            "nor40x24",
+            "w39hk",
+            "module"
+        ],
+        "or4$": [
+            "or40x24",
+            "Z8whs",
+            "module"
+        ],
+        "and4$": [
+            "and40x24",
+            "mm9mm",
+            "module"
+        ],
+        "or3$": [
+            "or30x24",
+            "PshGg",
+            "module"
+        ],
+        "xnor2$": [
+            "xnor20x24",
+            "i48Ip",
+            "module"
+        ],
+        "inv1$": [
+            "inv10x24",
+            "NYIg8",
+            "module"
+        ],
+        "full_adder": [
+            "full_adder",
+            "BEdzp",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "dff$": [
+            "dff0x24",
+            "SD5jH",
+            "module"
+        ],
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
+        "table_dffq": [
+            "table_dffq",
+            "abmDd",
+            "udp"
+        ]
+    },
+    "CompileProcesses": [
+        "cgproc.2079.json"
+    ],
+    "CurCompileUdps": {},
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "Frontend(%)": 85.262936253092604,
+        "mop/quad": 2.3394495412844036,
+        "ru_self_cgstart": {
+            "ru_nvcsw": 254,
+            "ru_stime_sec": 0.043992999999999997,
+            "ru_utime_sec": 0.080987000000000003,
+            "ru_maxrss_kb": 50380,
+            "ru_minflt": 11980,
+            "ru_majflt": 0,
+            "ru_nivcsw": 23
+        },
+        "ru_childs_cgstart": {
+            "ru_nvcsw": 15,
+            "ru_stime_sec": 0.0099979999999999999,
+            "ru_utime_sec": 0.0029989999999999999,
+            "ru_maxrss_kb": 14908,
+            "ru_minflt": 1845,
+            "ru_majflt": 0,
+            "ru_nivcsw": 11
+        },
+        "nMops": 255,
+        "totalObjSize": 112284,
+        "nQuads": 109,
+        "ru_self_end": {
+            "ru_nvcsw": 339,
+            "ru_stime_sec": 0.056991,
+            "ru_utime_sec": 0.094985,
+            "ru_maxrss_kb": 58428,
+            "ru_minflt": 13886,
+            "ru_majflt": 0,
+            "ru_nivcsw": 42
+        },
+        "ru_childs_end": {
+            "ru_nvcsw": 15,
+            "ru_stime_sec": 0.0099979999999999999,
+            "ru_utime_sec": 0.0029989999999999999,
+            "ru_maxrss_kb": 14908,
+            "ru_minflt": 1845,
+            "ru_majflt": 0,
+            "ru_nivcsw": 11
+        },
+        "mopSpeed": 18216.888126875274,
+        "quadSpeed": 7786.8266895270772,
+        "outputSizePerQuad": 1030.0,
+        "CodeGen(%)": 14.737063746907403
+    },
+    "SIMBData": {
+        "bytes": 88684,
+        "out": "amcQwB.o"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "cwd": "/home/ecelrc/students/spasrija/high_speed/High_speed/project",
+        "csrc_abs": "/home/ecelrc/students/spasrija/high_speed/High_speed/project/csrc",
+        "csrc": "csrc",
+        "archive_dir": "archive.1",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/ecelrc/students/spasrija/high_speed/High_speed/project/simv.daidir",
+        "default_output_dir": "csrc"
+    }
+}

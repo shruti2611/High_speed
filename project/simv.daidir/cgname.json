@@ -1,0 +1,87 @@
+{
+    "nand2$": [
+        "nand20x24",
+        "GnPnt",
+        "module"
+    ],
+    "nor2$": [
+        "nor20x24",
+        "qziQy",
+        "module"
+    ],
+    "nand3$": [
+        "nand30x24",
+        "icZA4",
+        "module"
+    ],
+    "nor3$": [
+        "nor30x24",
+        "KYk6D",
+        "module"
+    ],
+    "and3$": [
+        "and30x24",
+        "Z9uSW",
+        "module"
+    ],
+    "nand4$": [
+        "nand40x24",
+        "pMIy1",
+        "module"
+    ],
+    "nor4$": [
+        "nor40x24",
+        "w39hk",
+        "module"
+    ],
+    "or4$": [
+        "or40x24",
+        "Z8whs",
+        "module"
+    ],
+    "and4$": [
+        "and40x24",
+        "mm9mm",
+        "module"
+    ],
+    "or3$": [
+        "or30x24",
+        "PshGg",
+        "module"
+    ],
+    "xnor2$": [
+        "xnor20x24",
+        "i48Ip",
+        "module"
+    ],
+    "inv1$": [
+        "inv10x24",
+        "NYIg8",
+        "module"
+    ],
+    "full_adder": [
+        "full_adder",
+        "BEdzp",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ],
+    "dff$": [
+        "dff0x24",
+        "SD5jH",
+        "module"
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module"
+    ],
+    "table_dffq": [
+        "table_dffq",
+        "abmDd",
+        "udp"
+    ]
+}

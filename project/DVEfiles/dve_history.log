@@ -1,0 +1,106 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/for_shruti/eviction_behav_caches.dump.vpd -design V1} {gui_open_db -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/full_system_tb.dump.vpd -design V1} {gui_open_db -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/full_system_tb.dump.vpd -design V2} {gui_open_db -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/memory_sys.dump.vpd -design V1} {gui_open_db -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/for_ryan/full_system_tb.dump.vpd -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/dc_system_tb.dump.vpd.tcl} {gui_load_session -ignore_errors -file /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/dcache.v.dump.vpd.tcl} {gui_load_session -ignore_errors -file /home/ecelrc/students/spasrija/EE382N/lab4/DVEfiles//crash_02.19-23.12/dve_session02.19-23.12.tcl} {gui_load_session -ignore_errors -file /home/ecelrc/students/spasrija/EE382N/lab4/DVEfiles//crash_02.19-23.10/dve_session02.19-23.10.tcl} {gui_load_session -ignore_errors -file /home/ecelrc/students/spasrija/EE382N/lab4/DVEfiles//crash_02.19-23.09/dve_session02.19-23.09.tcl}}
+gui_set_state_value -category Globals -key recent_tcl_scripts -value {{gui_dve_source -global /home/ecelrc/students/spasrija/EE382N/git/EE382N19_project/dcache.v.dump.vpd.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1365
+gui_set_state_value -category Layout -key child_console_size_y -value 161
+gui_set_state_value -category Layout -key child_data_size_x -value 105
+gui_set_state_value -category Layout -key child_data_size_y -value 353
+gui_set_state_value -category Layout -key child_driver_size_x -value 1105
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 266
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 84
+gui_set_state_value -category Layout -key child_hier_size_x -value 290
+gui_set_state_value -category Layout -key child_hier_size_y -value 353
+gui_set_state_value -category Layout -key child_hier_sort_column -value 1
+gui_set_state_value -category Layout -key child_hier_sort_order -value 1
+gui_set_state_value -category Layout -key child_list_down -value 207
+gui_set_state_value -category Layout -key child_list_right -value 444
+gui_set_state_value -category Layout -key child_memory_docknewline -value false
+gui_set_state_value -category Layout -key child_memory_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_memory_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_memory_size_x -value 923
+gui_set_state_value -category Layout -key child_memory_size_y -value 246
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 923
+gui_set_state_value -category Layout -key child_schematic_size_y -value 246
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 973
+gui_set_state_value -category Layout -key child_source_size_y -value 348
+gui_set_state_value -category Layout -key child_wave_colname -value 186
+gui_set_state_value -category Layout -key child_wave_colvalue -value 186
+gui_set_state_value -category Layout -key child_wave_left -value 377
+gui_set_state_value -category Layout -key child_wave_right -value 921
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 53
+gui_set_state_value -category Layout -key main_size_x -value 1365
+gui_set_state_value -category Layout -key main_size_y -value 663
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 604
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 352
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 501
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 53
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 552
+gui_set_state_value -category Layout -key stand_schematic_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_schematic_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_schematic_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_schematic_child_size_x -value 951
+gui_set_state_value -category Layout -key stand_schematic_child_size_y -value 194
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1308
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 503
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 23
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 55
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1326
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 659
+gui_set_state_value -category Driver -key driver_add_to_wave -value true
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key Find|m_pFindFrame|m_pFindCombo -value_type string -value {81455.4 81455.4ns generic.sdb St1 16'h1111}
+gui_create_state_key -category Widget_History -key Search.1|m_pStringCombo -value_type string -value generic.sdb
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd1|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {al2_mux *al2_mux}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_top_dock|&Edit|FindCombo -value_type string -value {81455.4 81455.4ns generic.sdb St1 16'h1111}
+gui_create_state_key -category Widget_History -key TopLevel.2|EkTopVbox|wndWorkspace|qt_workspacechild2|Wave.1|left|filterVBox|controlHBox|unnamed -value_type string -value {do_trans hit0 *pr_wrdata addr1_wr_way1}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_top_dock|&Edit|FindCombo -value_type string -value {81455.4 81455.4ns St1 16'h1111 16'h0000}
+gui_create_state_key -category Widget_History -key TopLevel.3|EkTopVbox|wndWorkspace|qt_workspacechild3|Wave.2|left|filterVBox|controlHBox|unnamed -value_type string -value {*pr_wrdata miss *sel_addr1 *bank_eq}
+gui_create_state_key -category Widget_History -key TopLevel.3|qt_top_dock|&Edit|FindCombo -value_type string -value generic.sdb
+gui_create_state_key -category Widget_History -key TopLevel.4|EkTopVbox|wndWorkspace|qt_workspacechild4|Wave.3|left|filterVBox|controlHBox|unnamed -value_type string -value {sel_addr1 alwr_enable clk addr1_wline}
+gui_create_state_key -category Widget_History -key TopLevel.5|EkTopVbox|wndWorkspace|qt_workspacechild6|Wave.4|left|filterVBox|controlHBox|unnamed -value_type string -value {*addr1_wr *alwrmux_enable}
+gui_create_state_key -category Widget_History -key dlgSearchValue|m_ValueComboBox -value_type string -value 1
+gui_create_state_key -category Widget_History -key dlgSearchValue|m_ValueTransitionComboBox -value_type string -value 0
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value false
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/ecelrc/students/spasrija/high_speed/High_speed/project/top.dump.vpd -design V1
+gui_list_expand -id  Hier.1   top
+gui_list_select -id Hier.1 -current_item_name top.rc_10 -current_item_type Scope  -selected  { top.rc_10   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Hier.1 { top.rc_10 } -insertionbar
+gui_marker_move -id  Wave.1 C1 92
+gui_list_select -id Wave.1 -selected  { top.rc_10.Cin   }
+gui_list_select -id Wave.1 -selected  { {top.rc_10.S[9:0]}   }
+gui_close_window -window Wave.1
+gui_close_window -window TopLevel.2
