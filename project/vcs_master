@@ -1,3 +1,4 @@
 lib/gates.v
 lib/adders.v
+lib/par_cntrs.v
 top.v
